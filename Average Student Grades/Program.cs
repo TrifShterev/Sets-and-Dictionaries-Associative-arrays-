@@ -21,13 +21,24 @@ namespace Average_Student_Grades
                 if (!studentsDictionary.ContainsKey(student))
                 {
                     studentsDictionary.Add(student, new List<decimal>());
+                    studentsDictionary[student].Add(grade);
                 }
-                studentsDictionary[student].Add(grade);
+                else
+                {
+                    studentsDictionary[student].Add(grade);
+                }
+                
 
             }
-            foreach (var (student,grades) in studentsDictionary)
+            foreach (var item in studentsDictionary)
             {
-              Console.WriteLine($"{student} ->{string.Join(" ",grades)}(avg: {grades.Average()}) ");
+                Console.Write($"{item.Key} -> ");
+                foreach (var grade in item.Value)
+                {
+                    Console.Write($"{grade:f2} ");
+                }
+                Console.Write($"(avg: {item.Value.Average():f2})");
+                Console.WriteLine();
             }
         }
     }
