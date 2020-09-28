@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking Lot HashSet", "Park
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUni Party", "SoftUni Party\SoftUni Party.csproj", "{5D46AF45-8678-46E5-8460-8574BA6E2675}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unique Usernames", "Unique Usernames\Unique Usernames.csproj", "{E46C5876-C55E-40C7-902B-135EC1347FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets of Elements", "Sets of Elements\Sets of Elements.csproj", "{A5E48D4C-A6B4-411C-B35F-CC05C727CC4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{5D46AF45-8678-46E5-8460-8574BA6E2675}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D46AF45-8678-46E5-8460-8574BA6E2675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D46AF45-8678-46E5-8460-8574BA6E2675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46C5876-C55E-40C7-902B-135EC1347FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46C5876-C55E-40C7-902B-135EC1347FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46C5876-C55E-40C7-902B-135EC1347FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46C5876-C55E-40C7-902B-135EC1347FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E48D4C-A6B4-411C-B35F-CC05C727CC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E48D4C-A6B4-411C-B35F-CC05C727CC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E48D4C-A6B4-411C-B35F-CC05C727CC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E48D4C-A6B4-411C-B35F-CC05C727CC4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
