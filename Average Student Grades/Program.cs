@@ -25,7 +25,7 @@ namespace Average_Student_Grades
                 }
                 else
                 {
-                    studentsDictionary[student].Add(grade);
+
                 }
                 
 
